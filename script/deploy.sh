@@ -5,6 +5,6 @@ ssh facile@134.209.158.136 <<EOF
  git pull
  npm install
  npm run build
- pm2 restart all
+ pm2 restart index.js
  exit
 EOF
