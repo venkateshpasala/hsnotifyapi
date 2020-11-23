@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ssh centos@web1.hsnotify.com <<EOF 
- cd ~/hsnotifyapi
+ssh centos@34.220.141.160 <<EOF 
+ cd ~/workspace/hsnotifyapi
  git pull
  npm install
  npm run build
