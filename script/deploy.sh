@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh facile@134.209.158.136 <<EOF 
+ssh centos@34.220.141.160 <<EOF 
  cd ~/hsnotifyapi
  git pull
  npm install
