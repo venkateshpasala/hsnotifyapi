@@ -938,10 +938,6 @@ const getLastMonthCDRs = (req, res, accountName, cdrLimit) => {
         }));
     });
 }
-// This is for test node api server on browser
-app.get('/', (req, res) => {
-    res.send('Welcome to jenkins node server with CI and CD ')
-})
 
 
 app.get('/verifyJWT', validateJWT, (req, res) => {
