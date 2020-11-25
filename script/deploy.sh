@@ -1,6 +1,6 @@
 #!/bin/sh
 
- ssh -t -t centos@54.148.113.240 <<EOF 
+ ssh -t -t centos@web1-qa.hsnotify.com <<EOF 
  cd ~/hsnotifyapi
  pwd
  git checkout main
