@@ -12505,7 +12505,7 @@ httpsServer.listen(443,3000);
 //unSavedReport();
   app.listen(process.env.PORT || 3000, function(err) {
     if (err) console.log("Error in server setup") 
-    console.log("hsnotify server listening on Port 3000"); 
+    console.log("Server listening on Port 3000"); 
   });
   module.exports = app;
 
