@@ -1,7 +1,7 @@
 #!/bin/sh
 
  echo "Deploy sh file started"
- ssh -t -t centos@web1-qa.hsnotify.com <<EOF 
+ ssh -t -t centos@54.148.113.240 <<EOF 
     cd ~/hsnotifyapi
     pwd
     git checkout main
