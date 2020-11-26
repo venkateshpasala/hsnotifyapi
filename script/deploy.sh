@@ -1,7 +1,7 @@
 #!/bin/sh
 
  echo "Deploy server started"
- ssh -t -t root@143.110.242.125 <<EOF 
+ ssh -tt root@143.110.242.125 <<EOF 
     cd ~/hsnotifyapi
     pwd
     git checkout main
