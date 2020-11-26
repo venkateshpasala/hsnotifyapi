@@ -1,6 +1,6 @@
 #!/bin/sh
 
- ssh -t -t facile@139.59.36.62 <<EOF 
+ ssh -t -t centos@54.148.113.240 <<EOF 
     cd ~/hsnotifyapi
     pwd
     git checkout main
