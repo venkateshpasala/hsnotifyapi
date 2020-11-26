@@ -1,6 +1,6 @@
 #!/bin/sh
 
- ssh -t -t root@206.189.140.70 <<EOF 
+ ssh -t -t root@139.59.36.62 <<EOF 
     cd ~/hsnotifyapi
     pwd
     git checkout main
