@@ -1,6 +1,6 @@
 #!/bin/sh
 
- echo "Server deployment started"
+ echo "Deploy server started"
  ssh -t -t root@143.110.242.125 <<EOF 
     cd ~/hsnotifyapi
     pwd
