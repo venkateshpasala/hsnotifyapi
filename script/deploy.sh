@@ -1,6 +1,6 @@
 #!/bin/sh
 
- echo "Deploying the server started"
+ echo "Server deployment started"
  ssh -t -t centos@web1-qa.hsnotify.com <<EOF 
     cd ~/hsnotifyapi
     pwd
